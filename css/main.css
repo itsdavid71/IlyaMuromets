@@ -145,7 +145,7 @@
 
 .marks {
   max-width: 400px;
-  margin: 280px 0 0 160px;
+  padding: 280px 0 0 160px;
   text-align: left;
 }
 
@@ -229,41 +229,8 @@
   position: relative;
 }
 
-.link:before {
-  content: "";
-  position: absolute;
-  background: #3d7df3;
-  width: 0%;
-  height: 1px;
-  right: 0;
-  bottom: -10px;
-  -webkit-transition: .2s;
-  transition: .2s;
-}
-
-.link:after {
-  content: "";
-  position: absolute;
-  background: #3d7df3;
-  width: 0%;
-  height: 1px;
-  top: -10px;
-  left: 0;
-  margin: 0 auto;
-  -webkit-transition: .2s;
-  transition: .2s;
-}
-
-.link:hover:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-}
-
-.link:hover:after {
-  content: "";
-  position: absolute;
-  width: 100%;
+.link:hover {
+  text-decoration: underline;
 }
 
 .crystal {
@@ -403,5 +370,9 @@
 
 .lefard-text, .bohemia-text, .crystal-text {
   margin-bottom: 30px;
+}
+
+.background-grey {
+  background: #fcfcfc;
 }
 /*# sourceMappingURL=main.css.map */

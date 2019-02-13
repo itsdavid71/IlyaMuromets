@@ -25,16 +25,21 @@
                 </div>
 
                 <div class="hr-line center"></div>
-                <div class="marks">
-                    <h2 class="second-title">Мы реализуем продукцию таких торговых марок как:</h2>
-                    <div class="marks-list default-text">
-                        Lefard <br>        
-                        Aurum – Crystal  <br>       
-                        Italiana Crystal BOHEMIA      
+            </div>
+            <div class="background-grey">
+                <div class="container">
+                    <div class="marks">
+                        <h2 class="second-title">Мы реализуем продукцию таких торговых марок как:</h2>
+                        <div class="marks-list default-text">
+                            Lefard <br>        
+                            Aurum – Crystal  <br>       
+                            Italiana Crystal BOHEMIA      
+                        </div>
                     </div>
+                    <div class="marks-img"></div>
                 </div>
-                <div class="marks-img"></div>
-
+            </div>
+            <div class="container">
                 <div class="lefard">
                     <div class="lefard-logo"></div>
                     <div class="mark-title-block">
